@@ -1,0 +1,19 @@
+.ping-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.ping-container__email {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.email-input {
+    width: 70%;
+}
+
+#email-btn {
+    width: 28%;
+    margin-top: 0;
+}

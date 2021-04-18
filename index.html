@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 600px)">
+  <link rel="stylesheet" href="desktop.css" media="(min-width: 900px)">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+
+  <section class="ping-container">
+
+    <figure class="ping-container__logo">
+      <img src="images/logo.svg" alt="">
+    </figure>
+
+    <h1 class="ping-container__title"> We are launching <b>soon!</b></h1>
+
+    <p class="ping-container__subscribe">Subscribe and get notified</p>
+
+    <form class="ping-container__email">
+      <div class="email-input">
+        <input type="email" name="email" id="email" class="email-form" placeholder="Your email address...">
+        <small class="error-message"><i>Please provide a valid email address</i></small>
+      </div>
+      <button type="submit" id="email-btn" class="email-form">Notify Me</button>
+    </form>
+
+    <figure class="ping-container__dashboard">
+      <img src="images/illustration-dashboard.png" alt="">
+    </figure>
+
+    <div class="ping-container__social">
+      <a href=""><span class="social-icon"><i class="fab fa-facebook-f"></i></span></a>
+      <a href=""><span class="social-icon"><i class="fab fa-twitter"></i></span></a>
+      <a href=""><span class="social-icon"><i class="fab fa-instagram"></i></span></a>
+    </div>
+
+    <small class="ping-container__copyright">© Copyright Ping. All rights reserved.</small>
+
+  </section>
+
+  <script src="scripts.js"></script>
+  <script src="https://kit.fontawesome.com/549c3d58c0.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
